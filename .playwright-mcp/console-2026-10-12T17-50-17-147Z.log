@@ -1,0 +1,9 @@
+[    1038ms] [WARNING] Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading @ https://maps.googleapis.com/maps/api/js?libraries=places:2699
+[    1280ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://d2cs2jbxolv7r7.cloudfront.net/login:0
+[    6062ms] [WARNING] Google Maps JavaScript API warning: NoApiKeys https://developers.google.com/maps/documentation/javascript/error-messages#no-api-keys @ https://maps.googleapis.com/maps/api/js?libraries=places:2052
+[   14285ms] [ERROR] Access to fetch at 'http://127.0.0.1:8899/otp' from origin 'https://d2cs2jbxolv7r7.cloudfront.net' has been blocked by CORS policy: Permission was denied for this request to access the `loopback` address space. @ https://d2cs2jbxolv7r7.cloudfront.net/login:0
+[   14287ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://127.0.0.1:8899/otp:0
+[   77678ms] [WARNING] Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading @ https://maps.googleapis.com/maps/api/js?libraries=places:2699
+[   77739ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://d2cs2jbxolv7r7.cloudfront.net/login:0
+[   82739ms] [WARNING] Google Maps JavaScript API warning: NoApiKeys https://developers.google.com/maps/documentation/javascript/error-messages#no-api-keys @ https://maps.googleapis.com/maps/api/js?libraries=places:2052
+[  126607ms] [WARNING] ⚠️ Google Places API not configured. Add VITE_GOOGLE_PLACES_API_KEY to .env.local @ https://d2cs2jbxolv7r7.cloudfront.net/assets/index-o3-MtNsD.js:32

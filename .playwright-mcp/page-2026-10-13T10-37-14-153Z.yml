@@ -1,0 +1,46 @@
+- generic [ref=e2]:
+  - generic "App notifications"
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - img "Aviva" [ref=e8]
+        - heading "global Portal" [level=1] [ref=e10]
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - generic [ref=e15]: Market Region
+          - generic [ref=e17]:
+            - button "Select Ireland region" [pressed] [ref=e18] [cursor=pointer]:
+              - generic [ref=e19]: IE
+              - generic [ref=e20]: Ireland
+            - button "Select Norway region" [ref=e21] [cursor=pointer]:
+              - generic [ref=e22]: "NO"
+              - generic [ref=e23]: Norway
+            - button "Select Sweden region" [ref=e24] [cursor=pointer]:
+              - generic [ref=e25]: SE
+              - generic [ref=e26]: Sweden
+        - generic [ref=e28]:
+          - generic [ref=e29]: Access Level
+          - combobox "Access Level" [ref=e31]:
+            - option "Broker Portal" [selected]
+            - option "Staff Portal"
+        - generic [ref=e32]:
+          - alert [ref=e51]:
+            - generic [ref=e52]:
+              - generic [ref=e53]:
+                - paragraph [ref=e54]: Information
+                - paragraph [ref=e55]: Verification code sent. Check your email for the OTP.
+              - button "Dismiss alert" [ref=e56] [cursor=pointer]: Dismiss
+          - generic [ref=e57]:
+            - generic [ref=e58]:
+              - paragraph [ref=e59]: Multi-Factor Authentication
+              - paragraph [ref=e60]: Enter the 6-digit code sent to your registered email.
+            - generic [ref=e61]:
+              - generic [ref=e62]: Enter Verification Code*
+              - textbox "Enter Verification Coderequired" [ref=e64]:
+                - /placeholder: Enter the code received on your email
+            - generic [ref=e65]:
+              - button "Resend code" [ref=e66] [cursor=pointer]
+              - button "Use different credentials" [ref=e67] [cursor=pointer]
+          - button "Verify & Sign In" [ref=e68] [cursor=pointer]
+    - link "Skip to login form" [ref=e50] [cursor=pointer]:
+      - /url: "#login-form"

@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+test-results/
+playwright-report/
+*.pyc
+.env
+auth/
+client_secret*.json

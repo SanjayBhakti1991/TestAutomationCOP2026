@@ -1,0 +1,522 @@
+- generic [ref=f7e1]:
+  - iframe [aria-hidden] [ref=f7e2]
+  - generic [ref=f7e10]:
+    - generic [ref=f7e12]:
+      - generic [ref=f7e13]:
+        - link "Skip to content" [ref=f7e14] [cursor=pointer]:
+          - /url: ""
+        - link "Using Gmail with screen readers" [ref=f7e15] [cursor=pointer]:
+          - /url: ""
+      - heading [level=1] [ref=f7e17]:
+        - banner [ref=f7e18]:
+          - generic [ref=f7e19]:
+            - generic [ref=f7e20]:
+              - button "Main menu" [expanded] [ref=f7e21] [cursor=pointer]
+              - link "Gmail" [ref=f7e26] [cursor=pointer]:
+                - /url: "#inbox"
+            - generic [ref=f7e28]:
+              - search [ref=f7e30]:
+                - heading "Search" [level=2] [ref=f7e31]
+                - table [ref=f7e33]:
+                  - rowgroup [ref=f7e34]:
+                    - row [ref=f7e35]:
+                      - cell [ref=f7e36]:
+                        - textbox "Search mail" [ref=f7e37]
+                - button "Advanced search options" [ref=f7e38] [cursor=pointer]
+                - button "Search mail" [disabled] [ref=f7e41] [cursor=pointer]
+              - generic [ref=f7e45]:
+                - button "Support" [ref=f7e47] [cursor=pointer]
+                - button "Settings" [ref=f7e52] [cursor=pointer]
+                - generic [ref=f7e58]:
+                  - link "Upgrade" [ref=f7e60] [cursor=pointer]
+                  - tooltip [aria-hidden] [ref=f7e63]: Upgrade for premium features
+                - generic [ref=f7e65]:
+                  - generic:
+                    - button "Try Gemini" [ref=f7e72] [cursor=pointer]
+                    - tooltip [aria-hidden] [ref=f7e75]: Try Gemini
+            - generic [ref=f7e77]:
+              - button "Google apps" [ref=f7e81] [cursor=pointer]
+              - 'button "Google Account: SanjayTACOP (sanjaytacop2026@gmail.com)" [ref=f7e87] [cursor=pointer]'
+      - alert [ref=f7e92]
+    - generic [ref=f7e95]:
+      - navigation [ref=f7e96]:
+        - button "Compose" [ref=f7e99] [cursor=pointer]
+        - generic [ref=f7e105]:
+          - generic [ref=f7e107]:
+            - heading "Labels" [level=2] [ref=f7e108]
+            - generic [ref=f7e109]:
+              - generic [ref=f7e110]:
+                - generic [ref=f7e112]:
+                  - link "Inbox" [ref=f7e119] [cursor=pointer]:
+                    - /url: https://mail.google.com/mail/u/0/#inbox
+                  - link "Starred" [ref=f7e126] [cursor=pointer]:
+                    - /url: https://mail.google.com/mail/u/0/#starred
+                  - link "Snoozed" [ref=f7e133] [cursor=pointer]:
+                    - /url: https://mail.google.com/mail/u/0/#snoozed
+                  - link "Sent" [ref=f7e140] [cursor=pointer]:
+                    - /url: https://mail.google.com/mail/u/0/#sent
+                  - link "Drafts" [ref=f7e147] [cursor=pointer]:
+                    - /url: https://mail.google.com/mail/u/0/#drafts
+                - link "Purchases has menu" [ref=f7e156] [cursor=pointer]:
+                  - /url: https://mail.google.com/mail/u/0/#category/purchases
+                  - text: Purchases
+              - button "More labels" [ref=f7e158] [cursor=pointer]:
+                - generic [ref=f7e159]: More
+          - generic [ref=f7e162]:
+            - heading "Labels" [ref=f7e163]
+            - button "Create new label" [ref=f7e164] [cursor=pointer]
+          - generic:
+            - generic "Labels":
+              - heading "Labels" [level=2] [ref=f7e165]
+      - generic [ref=f7e170]:
+        - generic [ref=f7e399]:
+          - generic [ref=f7e401]:
+            - button "Back to Inbox" [ref=f7e403] [cursor=pointer]
+            - generic [ref=f7e406]:
+              - button "Archive" [ref=f7e407] [cursor=pointer]
+              - button "Report spam" [ref=f7e410] [cursor=pointer]
+              - button "Delete" [ref=f7e413] [cursor=pointer]
+            - generic [ref=f7e416]:
+              - button "Mark as unread" [ref=f7e417] [cursor=pointer]
+              - button "Move to" [ref=f7e421] [cursor=pointer]
+            - button "More email options" [ref=f7e425] [cursor=pointer]
+          - generic [ref=f7e430]:
+            - generic [ref=f7e431]: 2 of 4
+            - button "Newer" [ref=f7e432] [cursor=pointer]
+            - button "Older" [ref=f7e433] [cursor=pointer]
+        - main [ref=f7e434]:
+          - generic [ref=f7e436]:
+            - generic [ref=f7e438]:
+              - generic [ref=f7e440]:
+                - generic [ref=f7e441]:
+                  - button "Collapse all" [ref=f7e442] [cursor=pointer]
+                  - tooltip [aria-hidden] [ref=f7e448]: Collapse all
+                - generic [ref=f7e449]:
+                  - button "Print all" [ref=f7e450] [cursor=pointer]
+                  - tooltip [aria-hidden] [ref=f7e456]: Print all
+                - generic [ref=f7e457]:
+                  - button "In new window" [ref=f7e458] [cursor=pointer]
+                  - tooltip [aria-hidden] [ref=f7e464]: In new window
+              - generic [ref=f7e466]:
+                - heading "Verification Code from Aviva" [active] [level=2] [ref=f7e467]
+                - generic [ref=f7e469] [cursor=pointer]:
+                  - generic [ref=f7e470]:
+                    - button "Search for all messages with label Inbox" [ref=f7e472]: Inbox
+                    - tooltip [aria-hidden] [ref=f7e473]: Search for all messages with label Inbox
+                  - generic [ref=f7e474]:
+                    - button "Remove label Inbox from this conversation" [ref=f7e476]: ×
+                    - tooltip [aria-hidden] [ref=f7e477]: Remove label Inbox from this conversation
+            - list [ref=f7e480]:
+              - listitem [ref=f7e481]:
+                - generic [ref=f7e487]:
+                  - generic [ref=f7e488] [cursor=pointer]
+                  - generic [ref=f7e492]:
+                    - table [ref=f7e494] [cursor=pointer]:
+                      - rowgroup [ref=f7e495]:
+                        - row [ref=f7e496]:
+                          - cell [ref=f7e497]:
+                            - table [ref=f7e498]:
+                              - rowgroup [ref=f7e499]:
+                                - row [ref=f7e500]:
+                                  - cell [ref=f7e501]:
+                                    - heading [level=3] [ref=f7e502]:
+                                      - gridcell "insuremo-sandbox-eu@insuremo.com" [ref=f7e503]
+                                    - heading [level=3]
+                          - cell [ref=f7e505]:
+                            - generic [ref=f7e506]:
+                              - gridcell "10:20 PM (30 minutes ago)" [ref=f7e507]
+                              - checkbox "Not starred" [ref=f7e509]
+                          - cell
+                          - cell [ref=f7e511]:
+                            - generic [ref=f7e513]:
+                              - button "Add reaction" [ref=f7e514]
+                              - tooltip [aria-hidden] [ref=f7e520]: Add reaction
+                            - generic [ref=f7e521]:
+                              - button "Reply" [ref=f7e522]
+                              - tooltip [aria-hidden] [ref=f7e528]: Reply
+                            - generic [ref=f7e531]:
+                              - button "More message options" [ref=f7e532]
+                              - tooltip [aria-hidden] [ref=f7e537]: More
+                        - row [ref=f7e538]:
+                          - cell [ref=f7e539]:
+                            - table [ref=f7e540]:
+                              - rowgroup [ref=f7e541]:
+                                - row [ref=f7e542]:
+                                  - cell "to me Show details" [ref=f7e543]:
+                                    - generic [ref=f7e544]: to me
+                                    - button "Show details" [ref=f7e546]
+                    - table [ref=f7e552]:
+                      - rowgroup [ref=f7e553]:
+                        - row [ref=f7e554]:
+                          - cell [ref=f7e555]:
+                            - table [ref=f7e556]:
+                              - rowgroup [ref=f7e557]:
+                                - row [ref=f7e558]:
+                                  - cell [ref=f7e559]:
+                                    - heading "Identity Verification" [level=1] [ref=f7e560]
+                                - row [ref=f7e561]:
+                                  - cell [ref=f7e562]:
+                                    - paragraph [ref=f7e563]:
+                                      - text: Dear
+                                      - strong [ref=f7e564]:
+                                        - link "sanjaytacop2026@gmail.com" [ref=f7e565] [cursor=pointer]:
+                                          - /url: mailto:sanjaytacop2026@gmail.com
+                                      - text: ","
+                                    - paragraph [ref=f7e566]: To complete your sign-in, please use the One-Time Passcode (OTP) provided below. For security reasons, this code is only valid for a limited time.
+                                    - table [ref=f7e568]:
+                                      - rowgroup [ref=f7e569]:
+                                        - row [ref=f7e570]:
+                                          - cell "Verification Details:" [ref=f7e571]
+                                        - row [ref=f7e572]:
+                                          - cell "688675" [ref=f7e573]
+                                        - row [ref=f7e574]:
+                                          - 'cell "Valid for: 15 minutes" [ref=f7e575]'
+                                    - paragraph [ref=f7e576]: Please enter this code into the system to verify your identity.
+                                    - paragraph [ref=f7e577]:
+                                      - strong [ref=f7e578]: Questions?
+                                      - text: If you did not request this code or require further clarification, please contact our
+                                      - strong [ref=f7e579]: Aviva team
+                                      - text: for assistance.
+                                    - generic [ref=f7e580]:
+                                      - paragraph [ref=f7e581]: Regards,
+                                      - paragraph [ref=f7e582]: Aviva
+                                      - paragraph [ref=f7e583]: InsureMO
+                                - row [ref=f7e584]:
+                                  - cell "This is an automated notification generated by the system. Please do not reply directly to this email." [ref=f7e585]
+              - listitem [ref=f7e586]:
+                - generic [ref=f7e592]:
+                  - generic [ref=f7e593] [cursor=pointer]
+                  - generic [ref=f7e597]:
+                    - table [ref=f7e599] [cursor=pointer]:
+                      - rowgroup [ref=f7e600]:
+                        - row [ref=f7e601]:
+                          - cell [ref=f7e602]:
+                            - table [ref=f7e603]:
+                              - rowgroup [ref=f7e604]:
+                                - row [ref=f7e605]:
+                                  - cell [ref=f7e606]:
+                                    - heading [level=3] [ref=f7e607]:
+                                      - gridcell "insuremo-sandbox-eu@insuremo.com" [ref=f7e608]
+                                    - heading [level=3]
+                          - cell [ref=f7e610]:
+                            - generic [ref=f7e611]:
+                              - gridcell "10:25 PM (24 minutes ago)" [ref=f7e612]
+                              - checkbox "Not starred" [ref=f7e614]
+                          - cell
+                          - cell [ref=f7e616]:
+                            - generic [ref=f7e618]:
+                              - button "Add reaction" [ref=f7e619]
+                              - tooltip [aria-hidden] [ref=f7e625]: Add reaction
+                            - generic [ref=f7e626]:
+                              - button "Reply" [ref=f7e627]
+                              - tooltip [aria-hidden] [ref=f7e633]: Reply
+                            - generic "More message options" [ref=f7e634]:
+                              - generic [ref=f7e636]:
+                                - button "More message options" [ref=f7e637]
+                                - tooltip [aria-hidden] [ref=f7e642]: More
+                        - row [ref=f7e643]:
+                          - cell [ref=f7e644]:
+                            - table [ref=f7e645]:
+                              - rowgroup [ref=f7e646]:
+                                - row [ref=f7e647]:
+                                  - cell "to me Show details" [ref=f7e648]:
+                                    - generic [ref=f7e649]: to me
+                                    - button "Show details" [ref=f7e651]
+                    - table [ref=f7e657]:
+                      - rowgroup [ref=f7e658]:
+                        - row [ref=f7e659]:
+                          - cell [ref=f7e660]:
+                            - table [ref=f7e661]:
+                              - rowgroup [ref=f7e662]:
+                                - row [ref=f7e663]:
+                                  - cell [ref=f7e664]:
+                                    - heading "Identity Verification" [level=1] [ref=f7e665]
+                                - row [ref=f7e666]:
+                                  - cell [ref=f7e667]:
+                                    - generic [ref=f7e668]:
+                                      - paragraph [ref=f7e669]:
+                                        - text: Dear
+                                        - strong [ref=f7e670]:
+                                          - link "sanjaytacop2026@gmail.com" [ref=f7e671] [cursor=pointer]:
+                                            - /url: mailto:sanjaytacop2026@gmail.com
+                                        - text: ","
+                                      - paragraph [ref=f7e672]: To complete your sign-in, please use the One-Time Passcode (OTP) provided below. For security reasons, this code is only valid for a limited time.
+                                    - table [ref=f7e674]:
+                                      - rowgroup [ref=f7e675]:
+                                        - row [ref=f7e676]:
+                                          - cell "Verification Details:" [ref=f7e677]
+                                        - row [ref=f7e678]:
+                                          - cell "000100" [ref=f7e679]
+                                        - row [ref=f7e680]:
+                                          - 'cell "Valid for: 15 minutes" [ref=f7e681]'
+                                    - generic [ref=f7e682]:
+                                      - paragraph [ref=f7e683]: Please enter this code into the system to verify your identity.
+                                      - paragraph [ref=f7e684]:
+                                        - strong [ref=f7e685]: Questions?
+                                        - text: If you did not request this code or require further clarification, please contact our
+                                        - strong [ref=f7e686]: Aviva team
+                                        - text: for assistance.
+                                      - generic [ref=f7e687]:
+                                        - paragraph [ref=f7e688]: Regards,
+                                        - paragraph [ref=f7e689]: Aviva
+                                        - paragraph [ref=f7e690]: InsureMO
+                                - row [ref=f7e691]:
+                                  - cell "This is an automated notification generated by the system. Please do not reply directly to this email." [ref=f7e692]
+              - listitem [ref=f7e693]:
+                - generic [ref=f7e699]:
+                  - generic [ref=f7e700] [cursor=pointer]
+                  - generic [ref=f7e704]:
+                    - table [ref=f7e706] [cursor=pointer]:
+                      - rowgroup [ref=f7e707]:
+                        - row [ref=f7e708]:
+                          - cell [ref=f7e709]:
+                            - table [ref=f7e710]:
+                              - rowgroup [ref=f7e711]:
+                                - row [ref=f7e712]:
+                                  - cell [ref=f7e713]:
+                                    - heading [level=3] [ref=f7e714]:
+                                      - gridcell "insuremo-sandbox-eu@insuremo.com" [ref=f7e715]
+                                    - heading [level=3]
+                          - cell [ref=f7e717]:
+                            - generic [ref=f7e718]:
+                              - gridcell "10:27 PM (22 minutes ago)" [ref=f7e719]
+                              - checkbox "Not starred" [ref=f7e721]
+                          - cell
+                          - cell [ref=f7e723]:
+                            - generic [ref=f7e725]:
+                              - button "Add reaction" [ref=f7e726]
+                              - tooltip [aria-hidden] [ref=f7e732]: Add reaction
+                            - generic [ref=f7e733]:
+                              - button "Reply" [ref=f7e734]
+                              - tooltip [aria-hidden] [ref=f7e740]: Reply
+                            - generic "More message options" [ref=f7e741]:
+                              - generic [ref=f7e743]:
+                                - button "More message options" [ref=f7e744]
+                                - tooltip [aria-hidden] [ref=f7e749]: More
+                        - row [ref=f7e750]:
+                          - cell [ref=f7e751]:
+                            - table [ref=f7e752]:
+                              - rowgroup [ref=f7e753]:
+                                - row [ref=f7e754]:
+                                  - cell "to me Show details" [ref=f7e755]:
+                                    - generic [ref=f7e756]: to me
+                                    - button "Show details" [ref=f7e758]
+                    - table [ref=f7e764]:
+                      - rowgroup [ref=f7e765]:
+                        - row [ref=f7e766]:
+                          - cell [ref=f7e767]:
+                            - table [ref=f7e768]:
+                              - rowgroup [ref=f7e769]:
+                                - row [ref=f7e770]:
+                                  - cell [ref=f7e771]:
+                                    - heading "Identity Verification" [level=1] [ref=f7e772]
+                                - row [ref=f7e773]:
+                                  - cell [ref=f7e774]:
+                                    - generic [ref=f7e775]:
+                                      - paragraph [ref=f7e776]:
+                                        - text: Dear
+                                        - strong [ref=f7e777]:
+                                          - link "sanjaytacop2026@gmail.com" [ref=f7e778] [cursor=pointer]:
+                                            - /url: mailto:sanjaytacop2026@gmail.com
+                                        - text: ","
+                                      - paragraph [ref=f7e779]: To complete your sign-in, please use the One-Time Passcode (OTP) provided below. For security reasons, this code is only valid for a limited time.
+                                    - table [ref=f7e781]:
+                                      - rowgroup [ref=f7e782]:
+                                        - row [ref=f7e783]:
+                                          - cell "Verification Details:" [ref=f7e784]
+                                        - row [ref=f7e785]:
+                                          - cell "460395" [ref=f7e786]
+                                        - row [ref=f7e787]:
+                                          - 'cell "Valid for: 15 minutes" [ref=f7e788]'
+                                    - generic [ref=f7e789]:
+                                      - paragraph [ref=f7e790]: Please enter this code into the system to verify your identity.
+                                      - paragraph [ref=f7e791]:
+                                        - strong [ref=f7e792]: Questions?
+                                        - text: If you did not request this code or require further clarification, please contact our
+                                        - strong [ref=f7e793]: Aviva team
+                                        - text: for assistance.
+                                      - generic [ref=f7e794]:
+                                        - paragraph [ref=f7e795]: Regards,
+                                        - paragraph [ref=f7e796]: Aviva
+                                        - paragraph [ref=f7e797]: InsureMO
+                                - row [ref=f7e798]:
+                                  - cell "This is an automated notification generated by the system. Please do not reply directly to this email." [ref=f7e799]
+              - listitem [ref=f7e800]:
+                - generic [ref=f7e806]:
+                  - generic [ref=f7e807] [cursor=pointer]
+                  - generic [ref=f7e811]:
+                    - table [ref=f7e813] [cursor=pointer]:
+                      - rowgroup [ref=f7e814]:
+                        - row [ref=f7e815]:
+                          - cell [ref=f7e816]:
+                            - table [ref=f7e817]:
+                              - rowgroup [ref=f7e818]:
+                                - row [ref=f7e819]:
+                                  - cell [ref=f7e820]:
+                                    - heading [level=3] [ref=f7e821]:
+                                      - gridcell "insuremo-sandbox-eu@insuremo.com" [ref=f7e822]
+                                    - heading [level=3]
+                          - cell [ref=f7e824]:
+                            - generic [ref=f7e825]:
+                              - gridcell "10:35 PM (14 minutes ago)" [ref=f7e826]
+                              - checkbox "Not starred" [ref=f7e828]
+                          - cell
+                          - cell [ref=f7e830]:
+                            - generic [ref=f7e832]:
+                              - button "Add reaction" [ref=f7e833]
+                              - tooltip [aria-hidden] [ref=f7e839]: Add reaction
+                            - generic [ref=f7e840]:
+                              - button "Reply" [ref=f7e841]
+                              - tooltip [aria-hidden] [ref=f7e847]: Reply
+                            - generic "More message options" [ref=f7e848]:
+                              - generic [ref=f7e850]:
+                                - button "More message options" [ref=f7e851]
+                                - tooltip [aria-hidden] [ref=f7e856]: More
+                        - row [ref=f7e857]:
+                          - cell [ref=f7e858]:
+                            - table [ref=f7e859]:
+                              - rowgroup [ref=f7e860]:
+                                - row [ref=f7e861]:
+                                  - cell "to me Show details" [ref=f7e862]:
+                                    - generic [ref=f7e863]: to me
+                                    - button "Show details" [ref=f7e865]
+                    - table [ref=f7e871]:
+                      - rowgroup [ref=f7e872]:
+                        - row [ref=f7e873]:
+                          - cell [ref=f7e874]:
+                            - table [ref=f7e875]:
+                              - rowgroup [ref=f7e876]:
+                                - row [ref=f7e877]:
+                                  - cell [ref=f7e878]:
+                                    - heading "Identity Verification" [level=1] [ref=f7e879]
+                                - row [ref=f7e880]:
+                                  - cell [ref=f7e881]:
+                                    - generic [ref=f7e882]:
+                                      - paragraph [ref=f7e883]:
+                                        - text: Dear
+                                        - strong [ref=f7e884]:
+                                          - link "sanjaytacop2026@gmail.com" [ref=f7e885] [cursor=pointer]:
+                                            - /url: mailto:sanjaytacop2026@gmail.com
+                                        - text: ","
+                                      - paragraph [ref=f7e886]: To complete your sign-in, please use the One-Time Passcode (OTP) provided below. For security reasons, this code is only valid for a limited time.
+                                    - table [ref=f7e888]:
+                                      - rowgroup [ref=f7e889]:
+                                        - row [ref=f7e890]:
+                                          - cell "Verification Details:" [ref=f7e891]
+                                        - row [ref=f7e892]:
+                                          - cell "042600" [ref=f7e893]
+                                        - row [ref=f7e894]:
+                                          - 'cell "Valid for: 15 minutes" [ref=f7e895]'
+                                    - generic [ref=f7e896]:
+                                      - paragraph [ref=f7e897]: Please enter this code into the system to verify your identity.
+                                      - paragraph [ref=f7e898]:
+                                        - strong [ref=f7e899]: Questions?
+                                        - text: If you did not request this code or require further clarification, please contact our
+                                        - strong [ref=f7e900]: Aviva team
+                                        - text: for assistance.
+                                      - generic [ref=f7e901]:
+                                        - paragraph [ref=f7e902]: Regards,
+                                        - paragraph [ref=f7e903]: Aviva
+                                        - paragraph [ref=f7e904]: InsureMO
+                                - row [ref=f7e905]:
+                                  - cell "This is an automated notification generated by the system. Please do not reply directly to this email." [ref=f7e906]
+              - listitem [ref=f7e907]:
+                - generic [ref=f7e918]:
+                  - table [ref=f7e920]:
+                    - rowgroup [ref=f7e921]:
+                      - row [ref=f7e922]:
+                        - cell [ref=f7e923]:
+                          - table [ref=f7e924]:
+                            - rowgroup [ref=f7e925]:
+                              - row [ref=f7e926]:
+                                - cell [ref=f7e927]:
+                                  - heading [level=3] [ref=f7e928]:
+                                    - gridcell "insuremo-sandbox-eu@insuremo.com" [ref=f7e929]
+                                  - heading [level=3]
+                        - cell [ref=f7e931]:
+                          - generic [ref=f7e932]:
+                            - gridcell "10:46 PM (3 minutes ago)" [ref=f7e933]
+                            - checkbox "Not starred" [ref=f7e935] [cursor=pointer]
+                        - cell
+                        - cell [ref=f7e937]:
+                          - generic [ref=f7e939]:
+                            - button "Add reaction" [ref=f7e940] [cursor=pointer]
+                            - tooltip [aria-hidden] [ref=f7e946]: Add reaction
+                          - generic [ref=f7e947]:
+                            - button "Reply" [ref=f7e948] [cursor=pointer]
+                            - tooltip [aria-hidden] [ref=f7e954]: Reply
+                          - generic "More message options" [ref=f7e955]:
+                            - generic [ref=f7e957]:
+                              - button "More message options" [ref=f7e958] [cursor=pointer]
+                              - tooltip [aria-hidden] [ref=f7e963]: More
+                      - row [ref=f7e964]:
+                        - cell [ref=f7e965]:
+                          - table [ref=f7e966]:
+                            - rowgroup [ref=f7e967]:
+                              - row [ref=f7e968]:
+                                - cell "to me Show details" [ref=f7e969]:
+                                  - generic [ref=f7e970]: to me
+                                  - button "Show details" [ref=f7e972]
+                  - table [ref=f7e978]:
+                    - rowgroup [ref=f7e979]:
+                      - row [ref=f7e980]:
+                        - cell [ref=f7e981]:
+                          - table [ref=f7e982]:
+                            - rowgroup [ref=f7e983]:
+                              - row [ref=f7e984]:
+                                - cell [ref=f7e985]:
+                                  - heading "Identity Verification" [level=1] [ref=f7e986]
+                              - row [ref=f7e987]:
+                                - cell [ref=f7e988]:
+                                  - generic [ref=f7e989]:
+                                    - paragraph [ref=f7e990]:
+                                      - text: Dear
+                                      - strong [ref=f7e991]:
+                                        - link "sanjaytacop2026@gmail.com" [ref=f7e992] [cursor=pointer]:
+                                          - /url: mailto:sanjaytacop2026@gmail.com
+                                      - text: ","
+                                    - paragraph [ref=f7e993]: To complete your sign-in, please use the One-Time Passcode (OTP) provided below. For security reasons, this code is only valid for a limited time.
+                                  - table [ref=f7e995]:
+                                    - rowgroup [ref=f7e996]:
+                                      - row [ref=f7e997]:
+                                        - cell "Verification Details:" [ref=f7e998]
+                                      - row [ref=f7e999]:
+                                        - cell "283520" [ref=f7e1000]
+                                      - row [ref=f7e1001]:
+                                        - 'cell "Valid for: 15 minutes" [ref=f7e1002]'
+                                  - generic [ref=f7e1003]:
+                                    - paragraph [ref=f7e1004]: Please enter this code into the system to verify your identity.
+                                    - paragraph [ref=f7e1005]:
+                                      - strong [ref=f7e1006]: Questions?
+                                      - text: If you did not request this code or require further clarification, please contact our
+                                      - strong [ref=f7e1007]: Aviva team
+                                      - text: for assistance.
+                                    - generic [ref=f7e1008]:
+                                      - paragraph [ref=f7e1009]: Regards,
+                                      - paragraph [ref=f7e1010]: Aviva
+                                      - paragraph [ref=f7e1011]: InsureMO
+                              - row [ref=f7e1012]:
+                                - cell "This is an automated notification generated by the system. Please do not reply directly to this email." [ref=f7e1013]
+            - generic [ref=f7e1019]:
+              - link "Reply" [ref=f7e1020] [cursor=pointer]
+              - link "Forward" [ref=f7e1021] [cursor=pointer]
+              - generic [ref=f7e1023]:
+                - button "Add reaction" [ref=f7e1024] [cursor=pointer]
+                - tooltip [aria-hidden] [ref=f7e1030]: Add reaction
+      - generic [ref=f7e378]:
+        - complementary "Side panel" [ref=f7e379]:
+          - tablist [ref=f7e381]:
+            - tab "Calendar":
+              - generic [ref=f7e382] [cursor=pointer]
+            - tab "Keep":
+              - generic [ref=f7e383] [cursor=pointer]
+            - tab "Tasks":
+              - generic [ref=f7e384] [cursor=pointer]
+            - tab "Contacts":
+              - generic [ref=f7e385] [cursor=pointer]
+            - separator [disabled] [ref=f7e386]
+            - tab "Get Add-ons":
+              - generic [ref=f7e387] [cursor=pointer]
+        - generic:
+          - button "Hide side panel":
+            - generic [ref=f7e388] [cursor=pointer]

@@ -1,0 +1,41 @@
+- generic [ref=e2]:
+  - generic "App notifications"
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - img "Aviva" [ref=e8]
+        - heading "global Portal" [level=1] [ref=e10]
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - generic [ref=e15]: Market Region
+          - generic [ref=e17]:
+            - button "Select Ireland region" [pressed] [ref=e18] [cursor=pointer]:
+              - generic [ref=e19]: IE
+              - generic [ref=e20]: Ireland
+            - button "Select Norway region" [ref=e21] [cursor=pointer]:
+              - generic [ref=e22]: "NO"
+              - generic [ref=e23]: Norway
+            - button "Select Sweden region" [ref=e24] [cursor=pointer]:
+              - generic [ref=e25]: SE
+              - generic [ref=e26]: Sweden
+        - generic [ref=e28]:
+          - generic [ref=e29]: Access Level
+          - combobox "Access Level" [ref=e31]:
+            - option "Broker Portal" [selected]
+            - option "Staff Portal"
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]: Email or User ID*
+            - textbox "Email or User IDrequired" [ref=e36]:
+              - /placeholder: e.g. user@aviva.com
+          - generic [ref=e37]:
+            - generic [ref=e38]: Password *
+            - generic [ref=e39]:
+              - textbox "••••••••" [ref=e40]
+              - button [ref=e41] [cursor=pointer]
+          - button "Secure Login" [ref=e46] [cursor=pointer]
+          - paragraph [ref=e48]:
+            - text: Forgotten password?
+            - button "Reset here" [ref=e49] [cursor=pointer]
+    - link "Skip to login form" [ref=e50] [cursor=pointer]:
+      - /url: "#login-form"

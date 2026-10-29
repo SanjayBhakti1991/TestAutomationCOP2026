@@ -1,0 +1,1 @@
+"""UI automation scenarios organized by feature."""

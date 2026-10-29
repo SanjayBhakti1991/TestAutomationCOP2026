@@ -1,0 +1,266 @@
+- generic [active] [ref=f7e1]:
+  - iframe [aria-hidden] [ref=f7e2]
+  - generic [ref=f7e1039]: None selected
+  - generic [ref=f7e10]:
+    - generic [ref=f7e12]:
+      - generic [ref=f7e13]:
+        - link "Skip to content" [ref=f7e14] [cursor=pointer]:
+          - /url: ""
+        - link "Using Gmail with screen readers" [ref=f7e15] [cursor=pointer]:
+          - /url: ""
+      - heading [level=1] [ref=f7e17]:
+        - banner [ref=f7e18]:
+          - generic [ref=f7e19]:
+            - generic [ref=f7e20]:
+              - button "Main menu" [expanded] [ref=f7e21] [cursor=pointer]
+              - link "Gmail" [ref=f7e26] [cursor=pointer]:
+                - /url: "#inbox"
+            - generic [ref=f7e28]:
+              - search [ref=f7e30]:
+                - heading "Search" [level=2] [ref=f7e31]
+                - table [ref=f7e33]:
+                  - rowgroup [ref=f7e34]:
+                    - row [ref=f7e35]:
+                      - cell [ref=f7e36]:
+                        - textbox "Search mail" [ref=f7e37]
+                - button "Advanced search options" [ref=f7e38] [cursor=pointer]
+                - button "Search mail" [disabled] [ref=f7e41] [cursor=pointer]
+              - generic [ref=f7e45]:
+                - button "Support" [ref=f7e47] [cursor=pointer]
+                - button "Settings" [ref=f7e52] [cursor=pointer]
+                - generic [ref=f7e58]:
+                  - link "Upgrade" [ref=f7e60] [cursor=pointer]
+                  - tooltip [aria-hidden] [ref=f7e63]: Upgrade for premium features
+                - generic [ref=f7e65]:
+                  - generic:
+                    - button "Try Gemini" [ref=f7e72] [cursor=pointer]
+                    - tooltip [aria-hidden] [ref=f7e75]: Try Gemini
+            - generic [ref=f7e76]:
+              - generic [ref=f7e77]:
+                - button "Google apps" [ref=f7e81] [cursor=pointer]
+                - 'button "Google Account: SanjayTACOP (sanjaytacop2026@gmail.com)" [expanded] [ref=f7e87] [cursor=pointer]'
+              - iframe [ref=f7e1122]:
+                - dialog "Account and settings" [ref=f15e6]:
+                  - generic:
+                    - button "Close" [ref=f15e7] [cursor=pointer]
+                    - tooltip [aria-hidden] [ref=f15e10]: Close
+                  - generic [ref=f15e11]:
+                    - generic [aria-hidden]:
+                      - generic: sanjaytacop2026@gmail.com
+                    - generic [ref=f15e13]:
+                      - generic [ref=f15e14]:
+                        - generic [ref=f15e15]: Loading accounts
+                        - progressbar [aria-hidden] [ref=f15e16]
+                      - generic [ref=f15e25]:
+                        - generic [ref=f15e27]:
+                          - link "Redirect to Personal Info page (opens a new tab)" [ref=f15e29] [cursor=pointer]:
+                            - /url: https://myaccount.google.com/personal-info?utm_source=OGB&utm_medium=act&hl=en&authuser=0
+                            - generic [ref=f15e30]:
+                              - img "Profile image" [ref=f15e32]
+                              - tooltip [aria-hidden] [ref=f15e41]: Redirect to Personal Info page (opens a new tab)
+                          - button "SanjayTACOP sanjaytacop2026@gmail.com Collapse accounts list" [expanded] [ref=f15e42] [cursor=pointer]:
+                            - generic [ref=f15e43]:
+                              - generic [ref=f15e44]: SanjayTACOP
+                              - generic [ref=f15e45]: sanjaytacop2026@gmail.com
+                        - generic [ref=f15e49]:
+                          - link "Add another account (opens a new tab)" [ref=f15e51] [cursor=pointer]:
+                            - /url: https://accounts.google.com/AddSession?hl=en&continue=https://mail.google.com/mail/&service=mail&ec=GAlAFw&authuser=0
+                            - generic [ref=f15e52]: Add another account
+                          - link "Sign out" [ref=f15e62] [cursor=pointer]:
+                            - /url: https://accounts.google.com/Logout?hl=en&continue=https://mail.google.com/mail/&service=mail&timeStmp=1790270366&secTok=.AG5fkS92NoBvGnowUOl_Atfw4X61uIxyJA&ec=GAdAFw&authuser=0
+                      - link "Manage your Google Account (opens a new tab)" [ref=f15e75] [cursor=pointer]:
+                        - /url: https://myaccount.google.com/?hl=en&authuser=0&utm_source=OGB&utm_medium=act&gar=WzEyMF0&sl=true
+                        - generic [ref=f15e76]:
+                          - img "Google logo" [ref=f15e79]
+                          - generic [ref=f15e80]: Manage your Google Account
+                      - generic [ref=f15e85]:
+                        - link "Privacy Policy (opens a new tab)" [ref=f15e89] [cursor=pointer]:
+                          - /url: https://policies.google.com/privacy?hl=en&authuser=0
+                          - text: Privacy Policy
+                        - generic [ref=f15e92]:
+                          - text: ●
+                          - link "Terms of Service (opens a new tab)" [ref=f15e93] [cursor=pointer]:
+                            - /url: https://policies.google.com/terms?hl=en&authuser=0
+                            - text: Terms of Service
+      - alert [ref=f7e92]
+    - generic [ref=f7e95]:
+      - navigation [ref=f7e96]:
+        - button "Compose" [ref=f7e99] [cursor=pointer]
+        - generic [ref=f7e105]:
+          - generic [ref=f7e107]:
+            - heading "Labels" [level=2] [ref=f7e108]
+            - generic [ref=f7e109]:
+              - generic [ref=f7e110]:
+                - generic [ref=f7e112]:
+                  - link "Inbox" [ref=f7e1120] [cursor=pointer]:
+                    - /url: https://mail.google.com/mail/u/0/#inbox
+                  - link "Starred" [ref=f7e126] [cursor=pointer]:
+                    - /url: https://mail.google.com/mail/u/0/#starred
+                  - link "Snoozed" [ref=f7e133] [cursor=pointer]:
+                    - /url: https://mail.google.com/mail/u/0/#snoozed
+                  - link "Sent" [ref=f7e140] [cursor=pointer]:
+                    - /url: https://mail.google.com/mail/u/0/#sent
+                  - link "Drafts" [ref=f7e147] [cursor=pointer]:
+                    - /url: https://mail.google.com/mail/u/0/#drafts
+                - link "Purchases has menu" [ref=f7e156] [cursor=pointer]:
+                  - /url: https://mail.google.com/mail/u/0/#category/purchases
+                  - text: Purchases
+              - button "More labels" [ref=f7e158] [cursor=pointer]:
+                - generic [ref=f7e159]: More
+          - generic [ref=f7e162]:
+            - heading "Labels" [ref=f7e163]
+            - button "Create new label" [ref=f7e164] [cursor=pointer]
+          - generic:
+            - generic "Labels":
+              - heading "Labels" [level=2] [ref=f7e165]
+      - generic [ref=f7e172]:
+        - main [ref=f7e175]:
+          - generic [ref=f7e177]:
+            - generic [ref=f7e180]:
+              - button "Select" [ref=f7e182] [cursor=pointer]:
+                - checkbox [ref=f7e184]
+              - button "Refresh" [ref=f7e187] [cursor=pointer]
+              - button "More email options" [ref=f7e191] [cursor=pointer]
+            - generic [ref=f7e1046]:
+              - button "Show more messages" [ref=f7e1047] [cursor=pointer]:
+                - generic [ref=f7e1048]:
+                  - generic [ref=f7e1049]: 1–3
+                  - text: of 3
+              - button "Newer" [disabled] [ref=f7e1050]
+              - button "Older" [disabled] [ref=f7e1051]
+          - region "Inbox tip" [ref=f7e203]:
+            - generic [ref=f7e206]:
+              - generic [ref=f7e207]:
+                - generic [ref=f7e208]: Get additional protection against phishing
+                - generic [ref=f7e209]: Turn on Enhanced Safe Browsing to get additional protection against dangerous emails
+              - generic [ref=f7e210]:
+                - button "Continue" [ref=f7e212] [cursor=pointer]
+                - button "No thanks" [ref=f7e216] [cursor=pointer]
+          - heading "Conversations" [level=2] [ref=f7e220]
+          - table [ref=f7e222]:
+            - rowgroup [ref=f7e223]:
+              - tablist [ref=f7e224]:
+                - heading [level=3] [ref=f7e225]:
+                  - tab "Primary" [selected] [ref=f7e226] [cursor=pointer]
+                - heading [level=3] [ref=f7e232]:
+                  - tab "Promotions" [ref=f7e233] [cursor=pointer]
+                - heading [level=3] [ref=f7e239]:
+                  - tab "Social" [ref=f7e240] [cursor=pointer]
+                - cell
+                - cell
+              - row
+          - generic [ref=f7e246]:
+            - generic [ref=f7e247]:
+              - generic [ref=f7e248]: Get started with Gmail
+              - generic [ref=f7e249]:
+                - generic [ref=f7e250]:
+                  - button "Customize your inbox" [ref=f7e251] [cursor=pointer]
+                  - generic [ref=f7e252] [cursor=pointer]: Customize your inbox
+                - generic [ref=f7e254]:
+                  - button "Change profile image" [ref=f7e255] [cursor=pointer]
+                  - generic [ref=f7e256] [cursor=pointer]: Change profile image
+                - generic [ref=f7e258]:
+                  - button "Import contacts and mail" [ref=f7e259] [cursor=pointer]
+                  - generic [ref=f7e260] [cursor=pointer]: Import contacts and mail
+                - generic [ref=f7e262]:
+                  - button "Get Gmail for mobile" [ref=f7e263] [cursor=pointer]
+                  - generic [ref=f7e264] [cursor=pointer]: Get Gmail for mobile
+            - button "Dismiss" [ref=f7e266] [cursor=pointer]
+          - tabpanel "Primary" [ref=f7e269]:
+            - grid [ref=f7e1053]:
+              - rowgroup [ref=f7e1054]:
+                - row "insuremo-sandbox-eu 5, Verification Code from Aviva, 10:46 PM, Identity Verification Dear sanjaytacop2026@gmail.com, To complete your sign-in, please use the One-Time Passcode (OTP) provided below. For security reasons, this code is only valid for a limited time.." [ref=f7e1055] [cursor=pointer]:
+                  - gridcell [ref=f7e1056]
+                  - gridcell "insuremo-sandbox-eu 5, Verification Code from Aviva, 10:46 PM, Identity Verification Dear sanjaytacop2026@gmail.com, To complete your sign-in, please use the One-Time Passcode (OTP) provided below. For security reasons, this code is only valid for a limited time.." [ref=f7e1057]:
+                    - checkbox "insuremo-sandbox-eu 5, Verification Code from Aviva, 10:46 PM, Identity Verification Dear sanjaytacop2026@gmail.com, To complete your sign-in, please use the One-Time Passcode (OTP) provided below. For security reasons, this code is only valid for a limited time.." [ref=f7e1058]
+                  - gridcell [ref=f7e1059]:
+                    - button "Not starred" [ref=f7e1060]
+                  - gridcell "insuremo-sandbox-eu 5" [ref=f7e1061]:
+                    - generic [ref=f7e1062]:
+                      - generic [ref=f7e1063]: insuremo-sandbox-eu
+                      - generic [ref=f7e1064]: "5"
+                  - gridcell [ref=f7e1065]:
+                    - link "Verification Code from Aviva - Identity Verification Dear sanjaytacop2026@gmail.com, To complete your sign-in, please use the One-Time Passcode (OTP) provided below. For security reasons, this code is only valid for a limited time." [ref=f7e1066]:
+                      - generic [ref=f7e1067]:
+                        - generic [ref=f7e1068]: Verification Code from Aviva
+                        - generic [ref=f7e1070]:
+                          - generic [ref=f7e1071]: "-"
+                          - text: Identity Verification Dear sanjaytacop2026@gmail.com, To complete your sign-in, please use the One-Time Passcode (OTP) provided below. For security reasons, this code is only valid for a limited time.
+                  - gridcell [ref=f7e1072]
+                  - gridcell "Thu, Sep 24, 2026, 10:46 PM" [ref=f7e1073]:
+                    - generic "Thu, Sep 24, 2026, 10:46 PM" [ref=f7e1074]: 10:46 PM
+                  - gridcell
+                - row "insuremo-sandbox-eu 2, Verification Code from Aviva, Sep 23, Identity Verification Dear sanjaytacop2026@gmail.com, To complete your sign-in, please use the One-Time Passcode (OTP) provided below. For security reasons, this code is only valid for a limited time.." [ref=f7e1075] [cursor=pointer]:
+                  - gridcell [ref=f7e1076]
+                  - gridcell "insuremo-sandbox-eu 2, Verification Code from Aviva, Sep 23, Identity Verification Dear sanjaytacop2026@gmail.com, To complete your sign-in, please use the One-Time Passcode (OTP) provided below. For security reasons, this code is only valid for a limited time.." [ref=f7e1077]:
+                    - checkbox "insuremo-sandbox-eu 2, Verification Code from Aviva, Sep 23, Identity Verification Dear sanjaytacop2026@gmail.com, To complete your sign-in, please use the One-Time Passcode (OTP) provided below. For security reasons, this code is only valid for a limited time.." [ref=f7e1078]
+                  - gridcell [ref=f7e1079]:
+                    - button "Not starred" [ref=f7e1080]
+                  - gridcell "insuremo-sandbox-eu 2" [ref=f7e1081]:
+                    - generic [ref=f7e1082]:
+                      - generic [ref=f7e1083]: insuremo-sandbox-eu
+                      - generic [ref=f7e1084]: "2"
+                  - gridcell [ref=f7e1085]:
+                    - link "Verification Code from Aviva - Identity Verification Dear sanjaytacop2026@gmail.com, To complete your sign-in, please use the One-Time Passcode (OTP) provided below. For security reasons, this code is only valid for a limited time." [ref=f7e1086]:
+                      - generic [ref=f7e1087]:
+                        - generic [ref=f7e1088]: Verification Code from Aviva
+                        - generic [ref=f7e1090]:
+                          - generic [ref=f7e1091]: "-"
+                          - text: Identity Verification Dear sanjaytacop2026@gmail.com, To complete your sign-in, please use the One-Time Passcode (OTP) provided below. For security reasons, this code is only valid for a limited time.
+                  - gridcell [ref=f7e1092]
+                  - gridcell "Wed, Sep 23, 2026, 6:30 PM" [ref=f7e1093]:
+                    - generic "Wed, Sep 23, 2026, 6:30 PM" [ref=f7e1094]: Sep 23
+                  - gridcell
+                - row "insuremo-sandbox-eu, Set User Password from Aviva, Sep 23, Account Activation Dear sanjaytacop2026@gmail.com, A request has been made to set the password for your account on InsureMO. Please click the button below to complete the setup process and secure your." [ref=f7e1095] [cursor=pointer]:
+                  - gridcell [ref=f7e1096]
+                  - gridcell "insuremo-sandbox-eu, Set User Password from Aviva, Sep 23, Account Activation Dear sanjaytacop2026@gmail.com, A request has been made to set the password for your account on InsureMO. Please click the button below to complete the setup process and secure your." [ref=f7e1097]:
+                    - checkbox "insuremo-sandbox-eu, Set User Password from Aviva, Sep 23, Account Activation Dear sanjaytacop2026@gmail.com, A request has been made to set the password for your account on InsureMO. Please click the button below to complete the setup process and secure your." [ref=f7e1098]
+                  - gridcell [ref=f7e1099]:
+                    - button "Not starred" [ref=f7e1100]
+                  - gridcell "insuremo-sandbox-eu" [ref=f7e1101]
+                  - gridcell [ref=f7e1104]:
+                    - link "Set User Password from Aviva - Account Activation Dear sanjaytacop2026@gmail.com, A request has been made to set the password for your account on InsureMO. Please click the button below to complete the setup process and secure your" [ref=f7e1105]:
+                      - generic [ref=f7e1106]:
+                        - generic [ref=f7e1107]: Set User Password from Aviva
+                        - generic [ref=f7e1109]:
+                          - generic [ref=f7e1110]: "-"
+                          - text: Account Activation Dear sanjaytacop2026@gmail.com, A request has been made to set the password for your account on InsureMO. Please click the button below to complete the setup process and secure your
+                  - gridcell [ref=f7e1111]
+                  - gridcell "Wed, Sep 23, 2026, 6:27 PM" [ref=f7e1112]:
+                    - generic "Wed, Sep 23, 2026, 6:27 PM" [ref=f7e1113]: Sep 23
+                  - gridcell
+        - contentinfo [ref=f7e354]:
+          - link "0% of 15 GB used Follow link to manage storage" [ref=f7e359] [cursor=pointer]:
+            - /url: https://drive.google.com/u/0/settings/storage?hl=en&utm_medium=web&utm_source=gmail&utm_campaign=storage_meter&utm_content=storage_normal
+            - generic [ref=f7e361]:
+              - generic [ref=f7e362]: 0% of 15 GB used
+              - img "Follow link to manage storage" [ref=f7e363]
+          - generic [ref=f7e367]:
+            - link "Terms" [ref=f7e368] [cursor=pointer]:
+              - /url: https://www.google.com/intl/en/policies/terms/
+            - text: ·
+            - link "Privacy" [ref=f7e369] [cursor=pointer]:
+              - /url: https://www.google.com/intl/en/policies/privacy/
+            - text: ·
+            - link "Program Policies" [ref=f7e370] [cursor=pointer]:
+              - /url: https://www.google.com/gmail/about/policy/
+          - generic [ref=f7e373]:
+            - generic [ref=f7e374]: "Last account activity: 1 day ago"
+            - link "Details" [ref=f7e375] [cursor=pointer]
+      - generic [ref=f7e378]:
+        - complementary "Side panel" [ref=f7e379]:
+          - tablist [ref=f7e381]:
+            - tab "Calendar":
+              - generic [ref=f7e382] [cursor=pointer]
+            - tab "Keep":
+              - generic [ref=f7e383] [cursor=pointer]
+            - tab "Tasks":
+              - generic [ref=f7e384] [cursor=pointer]
+            - tab "Contacts":
+              - generic [ref=f7e385] [cursor=pointer]
+            - separator [disabled] [ref=f7e386]
+            - tab "Get Add-ons":
+              - generic [ref=f7e387] [cursor=pointer]
+        - generic:
+          - button "Hide side panel":
+            - generic [ref=f7e388] [cursor=pointer]

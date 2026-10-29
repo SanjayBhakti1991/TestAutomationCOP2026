@@ -1,0 +1,171 @@
+- generic [ref=e2]:
+  - generic "App notifications"
+  - link "Skip to main content" [ref=e51] [cursor=pointer]:
+    - /url: "#main-content"
+  - link "Skip to navigation" [ref=e52] [cursor=pointer]:
+    - /url: "#nav-sidebar"
+  - generic [ref=e53]:
+    - navigation [ref=e54]: nav.skipNavigation
+    - complementary "Main navigation" [ref=e56]:
+      - generic [ref=e59]:
+        - paragraph [ref=e60]: Ireland Portal
+        - heading "Aviva" [level=1] [ref=e61]
+      - navigation [ref=e62]:
+        - link "Dashboard" [ref=e63] [cursor=pointer]:
+          - /url: /dashboard
+        - link "Customers" [ref=e70] [cursor=pointer]:
+          - /url: /customers
+        - link "Product Catalogue" [ref=e77] [cursor=pointer]:
+          - /url: /catalogue
+        - link "Quotation" [ref=e82] [cursor=pointer]:
+          - /url: /quotes/new
+        - link "Policy/Quote Administration" [ref=e86] [cursor=pointer]:
+          - /url: /broker-policies
+      - generic [ref=e91]:
+        - button "Collapse Sidebar" [expanded] [ref=e92] [cursor=pointer]
+        - button "Logout from application" [ref=e96] [cursor=pointer]:
+          - generic [ref=e100]: Log Off System
+    - generic [ref=e101]:
+      - banner [ref=e102]:
+        - generic [ref=e103]:
+          - img "Aviva" [ref=e105]
+          - generic [ref=e106]:
+            - generic [ref=e107]: Global Portal
+            - generic [ref=e109]: Ireland
+        - generic [ref=e110]:
+          - generic [ref=e111]:
+            - generic [ref=e112]:
+              - paragraph [ref=e113]: sanjaytacop2026
+              - paragraph [ref=e116]: Active Session
+            - generic "sanjaytacop2026 avatar" [ref=e117]: S
+          - button "nav.logoutAria" [ref=e118] [cursor=pointer]
+      - main [ref=e121]:
+        - generic [ref=e195]:
+          - generic [ref=e196]:
+            - generic [ref=e197]:
+              - generic [ref=e198]:
+                - heading "New Quotation" [level=2] [ref=e199]
+                - generic [ref=e200]:
+                  - generic [ref=e201]: Ireland Market
+                  - generic [ref=e202]: Live Quoting Engine
+              - button [ref=e203] [cursor=pointer]
+            - generic [ref=e206]:
+              - paragraph [ref=e209]: Select Product
+              - paragraph [ref=e212]: Company Details
+              - paragraph [ref=e215]: Insured Persons
+              - paragraph [ref=e218]: Review Quote
+              - paragraph [ref=e221]: Confirmation
+          - main [ref=e222]:
+            - generic [ref=e849]:
+              - paragraph [ref=e852]:
+                - text: "Quotation No :"
+                - generic [ref=e853]: QGPAIE0000946
+              - generic [ref=e854]:
+                - heading "Review & Authorization" [level=4] [ref=e856]
+                - generic [ref=e857]:
+                  - generic [ref=e858]:
+                    - paragraph [ref=e859]: Legal Entity
+                    - paragraph [ref=e860]: GOOGLE DEMO IRELAND LIMITED
+                    - paragraph [ref=e861]: "Reg: —"
+                  - generic [ref=e862]:
+                    - paragraph [ref=e863]: HQ Address
+                    - paragraph [ref=e864]: GORDON BORROW STREETDUBLIN, D02 X288
+                  - generic [ref=e865]:
+                    - paragraph [ref=e866]: Primary Contact
+                    - paragraph [ref=e867]: TEST QA
+                    - paragraph [ref=e868]: TEST@GMAIL.COM
+                    - paragraph [ref=e869]: "Phone: +353123456789"
+              - generic [ref=e870]:
+                - heading "Coverage and Limit Matrix" [level=3] [ref=e872] [cursor=pointer]
+                - generic [ref=e877]:
+                  - generic [ref=e878] [cursor=pointer]:
+                    - generic [ref=e879]:
+                      - 'status "EC: Neutral status" [ref=e880]': EC
+                      - heading "Contractors" [level=4] [ref=e881]
+                    - generic [ref=e883]:
+                      - paragraph [ref=e884]: Total Risks Assured
+                      - paragraph [ref=e885]: "10"
+                  - table "Coverage benefits and pricing" [ref=e889]:
+                    - rowgroup [ref=e890]:
+                      - row [ref=e891]:
+                        - columnheader "Benefit" [ref=e892]
+                        - columnheader "Limit" [ref=e893]
+                    - rowgroup [ref=e894]:
+                      - row [ref=e895]:
+                        - cell "Permanent Partial Disablement" [ref=e896]
+                        - cell "25,000" [ref=e897]
+                      - row [ref=e898]:
+                        - cell "Permanent Partial Disablement (PPD) Benefit" [ref=e899]
+                        - cell "25,000" [ref=e900]
+                      - row [ref=e901]:
+                        - cell "Accidental Death" [ref=e902]
+                        - cell "25,000" [ref=e903]
+                      - row [ref=e904]:
+                        - cell "Accidental Death Benefits" [ref=e905]
+                        - cell "25,000" [ref=e906]
+                      - row [ref=e907]:
+                        - cell "Funeral Expenses following Accidental Death Benefit" [ref=e908]
+                        - cell "2,500" [ref=e909]
+                      - row [ref=e910]:
+                        - cell "Temporary Total Disablement" [ref=e911]
+                        - cell "200" [ref=e912]
+                      - row [ref=e913]:
+                        - cell "Temporary Total Disablement (TTD) - weekly benefit amount" [ref=e914]
+                        - cell "200" [ref=e915]
+                      - row [ref=e916]:
+                        - cell "Commuting Expenses following TTD benefit" [ref=e917]
+                        - cell "1,000" [ref=e918]
+                      - row [ref=e919]:
+                        - cell "Permanent Total Disablement" [ref=e920]
+                        - cell "25,000" [ref=e921]
+                      - row [ref=e922]:
+                        - cell "Permanent Total Disablement (PTD) Benefit" [ref=e923]
+                        - cell "25,000" [ref=e924]
+                      - row [ref=e925]:
+                        - cell "Childcare Expenses following PTD Benefit" [ref=e926]
+                        - cell "10,000" [ref=e927]
+                      - row [ref=e928]:
+                        - cell "Cosmetic Surgery following PTD Benefit" [ref=e929]
+                        - cell "5,000" [ref=e930]
+                      - row [ref=e931]:
+                        - cell "Home Alteration Expenses following PTD Benefit" [ref=e932]
+                        - cell "10,000" [ref=e933]
+              - heading "Legal & Compliance Endorsements" [level=3] [ref=e936] [cursor=pointer]
+              - generic [ref=e940]:
+                - generic [ref=e946]:
+                  - heading "Quote Delivery Options" [level=4] [ref=e947]
+                  - paragraph [ref=e948]: Select how you want to handle this quotation
+                - generic [ref=e949]:
+                  - generic [ref=e951]:
+                    - generic [ref=e952]: Send Quotation Document to Customer?
+                    - button "Resend Quotation" [ref=e1006] [cursor=pointer]
+                    - paragraph [ref=e956]: Do not send Quotation Document to customer directly. Mark this quotation for internal review only.
+                  - generic [ref=e957]:
+                    - button "QUOTE_SCHEDULE" [ref=e958] [cursor=pointer]
+                    - button "IPID" [ref=e962] [cursor=pointer]
+                    - button "POLICY_WORDING" [ref=e966] [cursor=pointer]
+              - generic [ref=e970]:
+                - generic [ref=e972]:
+                  - paragraph [ref=e973]: Quotation No :QGPAIE0000946
+                  - paragraph [ref=e974]: Consolidated Quote
+                  - generic [ref=e975]:
+                    - generic [ref=e976]:
+                      - generic [ref=e977]: Aggregate Net Premium
+                      - generic [ref=e978]: 500.00 EUR
+                    - generic [ref=e979]:
+                      - generic [ref=e980]: Tax (IPT 4%)
+                      - generic [ref=e981]: 20.00 EUR
+                - generic [ref=e982]:
+                  - paragraph [ref=e983]: Total Premium
+                  - generic [ref=e984]:
+                    - generic [ref=e985]: "520.00"
+                    - generic [ref=e986]: EUR
+          - generic [ref=e252]:
+            - button "Back" [ref=e271] [cursor=pointer]
+            - button "Bind Policy" [ref=e987] [cursor=pointer]
+          - generic [ref=e1030]:
+            - heading "Issuing policy..." [level=3] [ref=e1031]
+            - paragraph [ref=e1032]: Please wait...
+      - contentinfo [ref=e190]:
+        - paragraph [ref=e191]: "Aviva Insurance Ireland Designated Activity Company, trading as Aviva, is regulated by the Central Bank of Ireland. A private company limited by shares. Registered in Ireland No. 605769. Registered Office: Cherrywood Business Park, Dublin, Ireland, D18 W2P5"
+        - paragraph [ref=e194]: System Operational

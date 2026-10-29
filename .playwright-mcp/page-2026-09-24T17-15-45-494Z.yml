@@ -1,0 +1,6 @@
+- generic [active]:
+  - generic:
+    - generic "App notifications"
+    - generic [ref=e7]:
+      - heading "Restoring session..." [level=3] [ref=e8]
+      - paragraph [ref=e9]: Please wait...

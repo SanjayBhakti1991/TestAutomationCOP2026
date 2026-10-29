@@ -1,0 +1,9 @@
+- generic [ref=f17e2]:
+  - generic [ref=f17e4]:
+    - img "Gmail" [ref=f17e7]
+    - img "Google Workspace" [ref=f17e10]
+  - generic [ref=f17e11]:
+    - text: If you're having trouble loading, visit the
+    - link "Gmail help center" [ref=f17e12] [cursor=pointer]:
+      - /url: https://support.google.com/mail?p=fix-gmail-loading&authuser=0
+    - text: .

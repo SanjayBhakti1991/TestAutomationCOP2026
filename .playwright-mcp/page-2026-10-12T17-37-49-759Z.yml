@@ -1,0 +1,209 @@
+- generic [ref=e2]:
+  - generic "App notifications"
+  - link "Skip to main content" [ref=e51] [cursor=pointer]:
+    - /url: "#main-content"
+  - link "Skip to navigation" [ref=e52] [cursor=pointer]:
+    - /url: "#nav-sidebar"
+  - generic [ref=e53]:
+    - navigation [ref=e54]: nav.skipNavigation
+    - complementary "Main navigation" [ref=e56]:
+      - generic [ref=e59]:
+        - paragraph [ref=e60]: Ireland Portal
+        - heading "Aviva" [level=1] [ref=e61]
+      - navigation [ref=e62]:
+        - link "Dashboard" [ref=e63] [cursor=pointer]:
+          - /url: /dashboard
+        - link "Customers" [ref=e70] [cursor=pointer]:
+          - /url: /customers
+        - link "Product Catalogue" [ref=e77] [cursor=pointer]:
+          - /url: /catalogue
+        - link "Quotation" [ref=e82] [cursor=pointer]:
+          - /url: /quotes/new
+        - link "Policy/Quote Administration" [ref=e86] [cursor=pointer]:
+          - /url: /broker-policies
+      - generic [ref=e91]:
+        - button "Collapse Sidebar" [expanded] [ref=e92] [cursor=pointer]
+        - button "Logout from application" [ref=e96] [cursor=pointer]:
+          - generic [ref=e100]: Log Off System
+    - generic [ref=e101]:
+      - banner [ref=e102]:
+        - generic [ref=e103]:
+          - img "Aviva" [ref=e105]
+          - generic [ref=e106]:
+            - generic [ref=e107]: Global Portal
+            - generic [ref=e109]: Ireland
+        - generic [ref=e110]:
+          - generic [ref=e111]:
+            - generic [ref=e112]:
+              - paragraph [ref=e113]: sanjaytacop2026
+              - paragraph [ref=e116]: Active Session
+            - generic "sanjaytacop2026 avatar" [ref=e117]: S
+          - button "nav.logoutAria" [ref=e118] [cursor=pointer]
+      - main [ref=e121]:
+        - generic [ref=e195]:
+          - generic [ref=e196]:
+            - generic [ref=e197]:
+              - generic [ref=e198]:
+                - heading "New Quotation" [level=2] [ref=e199]
+                - generic [ref=e200]:
+                  - generic [ref=e201]: Ireland Market
+                  - generic [ref=e202]: Live Quoting Engine
+              - button [ref=e203] [cursor=pointer]
+            - generic [ref=e206]:
+              - paragraph [ref=e209]: Select Product
+              - paragraph [ref=e212]: Company Details
+              - paragraph [ref=e215]: Insured Persons
+              - paragraph [ref=e218]: Review Quote
+              - paragraph [ref=e221]: Confirmation
+          - main [ref=e222]:
+            - generic [ref=e259]:
+              - heading "Company Information" [level=3] [ref=e261]
+              - generic [ref=e354]:
+                - generic [ref=e355]:
+                  - button "Edit Details" [ref=e405] [cursor=pointer]
+                  - generic [ref=e356]:
+                    - generic [ref=e358]:
+                      - generic [ref=e359]: Entity Name*
+                      - textbox "Entity Namerequired" [disabled] [ref=e361]: GOOGLE DEMO IRELAND LIMITED
+                    - generic [ref=e362]:
+                      - generic [ref=e363]: Identification Type
+                      - combobox [disabled] [ref=e364]:
+                        - option "Select Identification Type (Optional)"
+                        - option "Passport"
+                        - option "Tax ID"
+                        - option "Government ID"
+                        - option "Driving License"
+                        - option "National Insurance Number"
+                        - option "Citizenship Card"
+                        - option "Voter ID"
+                        - option "Health Care ID"
+                        - option "Other Nationality/Citizenship ID"
+                        - option "VAT Registration Number"
+                        - option "Tax Identifier"
+                        - option "Armed Forces ID"
+                        - option "Birth Certificate"
+                        - option "Social Security Number"
+                        - option "Other"
+                        - option "Unknown" [selected]
+                    - generic [ref=e366]:
+                      - generic [ref=e367]: Registration Number
+                      - textbox "Registration Number" [disabled] [ref=e369]
+                    - generic [ref=e373]:
+                      - generic [ref=e374]: Street Address*
+                      - textbox "Street Addressrequired" [disabled] [ref=e376]:
+                        - /placeholder: Type to find address...
+                        - text: GORDON BORROW STREET
+                    - generic [ref=e377]:
+                      - generic [ref=e378]: City*
+                      - textbox "Cityrequired" [disabled] [ref=e380]: DUBLIN
+                    - generic [ref=e381]:
+                      - generic [ref=e382]: Postal Code*
+                      - textbox "Postal Coderequired" [disabled] [ref=e384]: D02 X288
+                    - generic [ref=e385]:
+                      - generic [ref=e386]: Country*
+                      - textbox "Countryrequired" [disabled] [ref=e388]: IRELAND
+                    - generic [ref=e389]:
+                      - generic [ref=e390]: Contact Email*
+                      - textbox "Contact Emailrequired" [disabled] [ref=e392]: TEST@GMAIL.COM
+                    - generic [ref=e393]:
+                      - generic [ref=e394]: Contact Person*
+                      - textbox "Contact Personrequired" [disabled] [ref=e396]: TEST QA
+                    - generic [ref=e397]:
+                      - generic [ref=e398]: Contact No*
+                      - generic [ref=e399]:
+                        - combobox "Country code" [disabled] [ref=e400]:
+                          - option "+353" [selected]
+                          - option "+47"
+                          - option "+46"
+                        - textbox "Contact Norequired" [disabled] [ref=e401]:
+                          - /placeholder: Enter number
+                          - text: "123456789"
+                - button "Back to Search" [ref=e404] [cursor=pointer]
+          - generic [ref=e252]:
+            - button "Back" [ref=e271] [cursor=pointer]
+            - button "Next Step" [active] [ref=e255] [cursor=pointer]
+          - generic [ref=e408]:
+            - heading "Important" [level=3] [ref=e410]
+            - generic [ref=e411]:
+              - paragraph [ref=e412]: You must answer all questions, which we ask, honestly and with reasonable care. Failure to do so may result in the policy not providing the cover that is needed, a claim not being paid or the policy being declared void or cancelled. The answers given are used to determine acceptance of your application for Group Personal Accident and Travel Insurance, calculate the premium, the exceptions, terms, and conditions, on which the policy will be based.
+              - heading "Aviva Data Protection - Privacy Notice" [level=4] [ref=e413]
+              - paragraph [ref=e414]: We collect and use personal information about you so that we can provide you with an insurance policy that suits your insurance needs. This notice explains the most important aspects of how we use your information and what rights you have in relation to your personal information but you can get more information about the terms we use and view our full Privacy Policy at our Privacy page on www.aviva.ie, request a copy by writing to us at Data Protection Officer, Aviva Insurance Ireland DAC, Building 12, Cherrywood Business Park, Loughlinstown, Dublin D18 W2P5 or call us at 01 8988000.
+              - paragraph [ref=e415]: The data controller responsible for this personal information is Aviva Insurance Ireland DAC (“we” “us” “our”) as the insurer of the product and can be contacted as above. Additional controllers include your intermediary/broker who is responsible for the sale and distribution of the product and any applicable reinsurers.
+              - heading "1. Personal information We collect" [level=4] [ref=e416]
+              - paragraph [ref=e417]: "Your data: The personal information we collect and use may include your name, address, telephone number and/or email address, date of birth or age, occupation, marital status, other products you have purchased from us, claims history, employer/employee details (where necessary), business professional history and details, bank account details or payment card details, unspent criminal convictions. We may carry out financial checks and credit searches in relation to your business."
+              - paragraph [ref=e418]: "Other people's data: As well as collecting personal information about you, we may also use personal information about other people, for example individuals you wish to insure on a policy."
+              - paragraph [ref=e419]: "Note: If you are providing information about another person, we expect you to show them this data protection notice and ensure that they have given you permission to provide this information to us so that we can provide a quote. If they have any concerns, please ask them to contact us in one of the ways described in the “Contacting Us” section."
+              - paragraph [ref=e420]: "Claims data: If a claim is made, we may also collect personal information about the claim from you and any relevant third parties."
+              - paragraph [ref=e421]: "Note: You don't have to provide us with any personal information, but if you don't provide the information we need we may not be able to proceed with your application or any claim you make. We will let you know what information is required to proceed with your application or any claim you make."
+              - paragraph [ref=e422]: "Health data: We may need to ask for details relating to your health data or the health data of somebody else covered under your policy."
+              - paragraph [ref=e423]: We recognise that information about health data is particularly sensitive information. We will only collect and use such data for the purposes of providing quotes and underwriting, managing reinsurance arrangements, processing any claims you may have, fraud investigation and handling any complaints you may have. Irish Data Protection law allows us to use health data in connection with your insurance policy.
+              - paragraph [ref=e424]: We may also need to use your health data for the purposes of establishing, exercising or defending legal rights, including in connection with advice, claims, or proceedings, and where authorised by law.
+              - heading "2. How we collect your personal information" [level=4] [ref=e425]
+              - paragraph [ref=e426]: "We may collect personal information about you from:"
+              - list [ref=e427]:
+                - listitem [ref=e428]: You;
+                - listitem [ref=e429]: other people connected to the policy;
+                - listitem [ref=e430]: your broker or intermediary;
+                - listitem [ref=e431]: your employer, if relevant to your insurance cover;
+                - listitem [ref=e432]: publicly available information including social media websites and online content, newspaper articles, TV, radio and other media content, court judgements;
+                - listitem [ref=e433]: insurance industry databases and other commercial databases such as Experian – we have provided more detail below on the industry databases from which we collect and share information;
+                - listitem [ref=e434]: other records within the Aviva Group if you have or have had other insurance policies with or sought a quote from another Aviva company or third-party claims;
+                - listitem [ref=e435]: third parties involved in a claim (including a claimant, private investigators engaged by us, witnesses, solicitors and independent experts);
+                - listitem [ref=e436]: when you visit one of the Aviva Group websites; and
+                - listitem [ref=e437]: Insurance Ireland (insurance industry's representative body) operate a confidential phone line (Insurance Confidential) for individuals to report suspect fraud.
+                - listitem [ref=e438]: Information received by Insurance Ireland is shared with relevant insurers.
+              - heading "3. How We use personal information" [level=4] [ref=e439]
+              - paragraph [ref=e440]: "We may collect and use personal information for the purposes, and on the legal basis, set out below:"
+              - list [ref=e441]:
+                - listitem [ref=e442]: To provide a quote, including making a decision as to whether we can provide you with cover and at what price; to take steps at your request prior to entering into a policy.
+                - listitem [ref=e443]: To verify your identity; to perform the policy; to comply with our legal obligations.
+                - listitem [ref=e444]: To provide you with insurance cover and administer your insurance policy, including dealing with any queries or changes, payments, renewals and processing a cancellation of your policy; to perform the policy.
+                - listitem [ref=e445]: To validate, investigate and/or process any claims you or another person makes in relation to your insurance policy; to perform the policy; to comply with our legal obligations.
+                - listitem [ref=e446]: To maintain arrangements we have with reinsurers; for our legitimate interests in managing our business.
+                - listitem [ref=e447]: For management information purposes including portfolio assessment, risk assessment, performance reporting and management reporting.
+                - listitem [ref=e448]: For a proposed portfolio transfer, reorganisation, transfer, disposal or other transaction relating to our business.
+                - listitem [ref=e449]: To detect and prevent fraud; for our legitimate interests in managing our business; to perform your policy; to comply with our legal obligations.
+                - listitem [ref=e450]: To comply with laws and regulations; to comply with our legal obligations.
+              - heading "4A. How we share your personal information with others" [level=4] [ref=e451]
+              - paragraph [ref=e452]: "We may share your personal information:"
+              - list [ref=e453]:
+                - listitem [ref=e454]: with the Aviva group, our agents and third parties who provide services to us, your intermediary and other insurers (either directly or via those acting for the insurer such as loss adjusters or investigators) to help us administer our products and services;
+                - listitem [ref=e455]: with professional bodies, regulatory bodies and law enforcement bodies, including the Gardaí, e.g. if we are required to do so to comply with a relevant legal or regulatory obligation; and
+                - listitem [ref=e456]: with reinsurers who provide reinsurance services to Aviva. Reinsurers will use your data to decide whether to provide reinsurance cover, assess and deal with reinsurance claims and to meet legal obligations. They will keep your data for the period necessary for these purposes and may need to disclose it to other companies within their group, their agents and third party service providers, law enforcement and regulatory bodies.
+                - listitem [ref=e457]: With Third Party claimants or their legal representatives while dealing with the administration of a claim.
+              - paragraph [ref=e458]: Some of the organisations we share information with are located outside of the European Economic Area, including India. These locations may not provide an adequate level of protection. We'll always take steps to ensure that any such transfer of information is carefully managed to protect your privacy rights. For more information on this please see our Privacy Policy or contact us in one of the ways described below.
+              - heading "4B. How we share your personal information with others for fraud prevention" [level=4] [ref=e459]
+              - paragraph [ref=e460]: "The data you provide will be used by us and shared with other insurers as well as certain statutory and other authorised bodies for anti-fraud purposes including:"
+              - list [ref=e461]:
+                - listitem [ref=e462]: sharing information about you with other public bodies including the Department of Finance, regulatory bodies (which include the Central Bank of Ireland, Financial Services Ombudsman, Data Protection Commissioner), professional bodies, fraud prevention agencies and the Gardaí;
+                - listitem [ref=e463]: private investigators, tracing debtors or beneficiaries, recovering debt, managing your accounts and/or insurance policies; and
+                - listitem [ref=e464]: undertaking fraud searches on publicly available information as outlined above and checking the Insurance Industry claims database, Insurance Link. For more information on Insurance Link please go to www.inslink.ie. This database helps insurers check claims information and prevent fraudulent claims;
+                - listitem [ref=e465]: Other Aviva entities.
+              - heading "5. Financial checks and credit searches" [level=4] [ref=e466]
+              - paragraph [ref=e467]: We may carry out financial checks and credit searches against the policyholder through third parties who provide us with credit information.
+              - heading "6. Using Personal Information to Create Profiles and make Automated Decisions" [level=4] [ref=e468]
+              - paragraph [ref=e469]: If you are applying for insurance, we may use tools to create profiles about you and, in some cases, use processes that apply these profiles to make fully automated decisions that may affect the services we provide to you. In the context of arranging an insurance policy, these tools are often used to help assess individual risk or the impact your information might have on the cumulative risk of a group and calculate insurance premiums or to make a decision about whether to extend or renew cover. If you are making a claim, we may use profiling or other forms of automated processing to assess the probability that your claim may be fraudulent or suspect in some way. Where sensitive personal information is relevant to the profiling, such as past convictions, your sensitive personal information may also be used in the profiling models. Please note, you have certain rights in respect of automated decision making where that decision has significant effects on you, including where it produces a legal effect on you. Full details of your rights can be found in the “Your Rights” section of the Privacy Policy.
+              - heading "7. Online information" [level=4] [ref=e470]
+              - paragraph [ref=e471]: When you visit one of the Aviva Group websites, we may record information about your computer or mobile device, including hardware and software used, general location, when and how you interact with our websites. This information is used to note your interest in our websites and improve customer journeys. You have the option to select and manage your preferences when you visit one of these websites.
+              - heading "8. How long we keep your personal information for" [level=4] [ref=e472]
+              - paragraph [ref=e473]: Information submitted for a quotation may be retained by us for a period of up to 15 months from the date of the quotation. Where you purchase a product from us, information will be held for the duration of your insurance cover and for at least six years after our relationship ends in order to comply with applicable laws and regulations and for use in connection with any claims. For more information on our data retention policies please see our Privacy Policy or contact us in one of the ways described below in the “Contacting us” section.
+              - heading "9. Your rights in relation to Your personal information" [level=4] [ref=e474]
+              - paragraph [ref=e475]: "You have various rights in relation to your personal information, including:"
+              - list [ref=e476]:
+                - listitem [ref=e477]: the right to request access to your personal information;
+                - listitem [ref=e478]: correct any mistakes on our records;
+                - listitem [ref=e479]: erase or restrict records where they are no longer required;
+                - listitem [ref=e480]: ask not to be subject to automated decision making if the decision produces legal or other significant effects on you;
+                - listitem [ref=e481]: to move certain data to other providers;
+                - listitem [ref=e482]: where we rely on your consent as our legal basis for use of your personal data you have a right to withdraw your consent to such use.
+              - paragraph [ref=e483]: "Note: you have the right to object to use of personal information based on legitimate business interests. If you do object, we will have an opportunity to demonstrate that there are compelling legitimate grounds which override your rights and freedoms or that processing is necessary for the establishment, exercise or defence of legal claims. Please note that any successful objection may prevent us assessing future claims and/or the policy may be cancelled."
+              - paragraph [ref=e484]: For more details in relation to your rights, including how to exercise them, please see our full Privacy Policy or contact us in one of the ways described below.
+              - heading "10. Contacting Us" [level=4] [ref=e485]
+              - paragraph [ref=e486]: If you have any questions about how we use personal information, or if you want to exercise your rights stated above, please contact our Data Protection team by either emailing them at DPO@aviva.com, writing to the Data Protection Officer, Aviva Insurance Ireland DAC, Building 12, Cherrywood Business Park, Loughlinstown, Dublin 18 W2P5 or call us at (01) 8988000.
+              - paragraph [ref=e487]: If you have a complaint or concern about how we use your personal information, please contact us in the first instance and we will attempt to resolve the issue as soon as possible. You also have the right to lodge a complaint with the Office of the Data Protection Commissioner at any time, by writing to them at 21 Fitzwilliam Square South, Dublin 2, D02 RD28, Ireland.
+            - generic [ref=e488]:
+              - button "Back" [ref=e489] [cursor=pointer]
+              - button "Accept and Continue" [disabled] [ref=e490]
+      - contentinfo [ref=e190]:
+        - paragraph [ref=e191]: "Aviva Insurance Ireland Designated Activity Company, trading as Aviva, is regulated by the Central Bank of Ireland. A private company limited by shares. Registered in Ireland No. 605769. Registered Office: Cherrywood Business Park, Dublin, Ireland, D18 W2P5"
+        - paragraph [ref=e194]: System Operational

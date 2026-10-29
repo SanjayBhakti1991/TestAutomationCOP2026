@@ -1,0 +1,144 @@
+- generic [ref=e2]:
+  - generic "App notifications"
+  - link "Skip to main content" [ref=e51] [cursor=pointer]:
+    - /url: "#main-content"
+  - link "Skip to navigation" [ref=e52] [cursor=pointer]:
+    - /url: "#nav-sidebar"
+  - generic [ref=e53]:
+    - navigation [ref=e54]: nav.skipNavigation
+    - complementary "Main navigation" [ref=e56]:
+      - generic [ref=e59]:
+        - paragraph [ref=e60]: Ireland Portal
+        - heading "Aviva" [level=1] [ref=e61]
+      - navigation [ref=e62]:
+        - link "Dashboard" [ref=e63] [cursor=pointer]:
+          - /url: /dashboard
+        - link "Customers" [ref=e70] [cursor=pointer]:
+          - /url: /customers
+        - link "Product Catalogue" [ref=e77] [cursor=pointer]:
+          - /url: /catalogue
+        - link "Quotation" [ref=e82] [cursor=pointer]:
+          - /url: /quotes/new
+        - link "Policy/Quote Administration" [ref=e86] [cursor=pointer]:
+          - /url: /broker-policies
+      - generic [ref=e91]:
+        - button "Collapse Sidebar" [expanded] [ref=e92] [cursor=pointer]
+        - button "Logout from application" [ref=e96] [cursor=pointer]:
+          - generic [ref=e100]: Log Off System
+    - generic [ref=e101]:
+      - banner [ref=e102]:
+        - generic [ref=e103]:
+          - img "Aviva" [ref=e105]
+          - generic [ref=e106]:
+            - generic [ref=e107]: Global Portal
+            - generic [ref=e109]: Ireland
+        - generic [ref=e110]:
+          - generic [ref=e111]:
+            - generic [ref=e112]:
+              - paragraph [ref=e113]: sanjaytacop2026
+              - paragraph [ref=e116]: Active Session
+            - generic "sanjaytacop2026 avatar" [ref=e117]: S
+          - button "nav.logoutAria" [ref=e118] [cursor=pointer]
+      - main [ref=e121]:
+        - generic [ref=e195]:
+          - generic [ref=e196]:
+            - generic [ref=e197]:
+              - generic [ref=e198]:
+                - heading "New Quotation" [level=2] [ref=e199]
+                - generic [ref=e200]:
+                  - generic [ref=e201]: Ireland Market
+                  - generic [ref=e202]: Live Quoting Engine
+              - button [ref=e203] [cursor=pointer]
+            - generic [ref=e206]:
+              - paragraph [ref=e209]: Select Product
+              - paragraph [ref=e212]: Company Details
+              - paragraph [ref=e215]: Insured Persons
+              - paragraph [ref=e218]: Review Quote
+              - paragraph [ref=e221]: Confirmation
+          - main [ref=e222]:
+            - generic [ref=e259]:
+              - heading "Company Information" [level=3] [ref=e261]
+              - generic [ref=e273]:
+                - generic [ref=e275]:
+                  - button "Company" [ref=e276] [cursor=pointer]
+                  - button "Person" [disabled] [ref=e277]
+                - generic [ref=e278]:
+                  - generic [ref=e280]:
+                    - generic [ref=e281]: Organization Full Name*
+                    - textbox "Organization Full Namerequired" [ref=e283]: Google Demo Ireland Limited
+                  - generic [ref=e284]:
+                    - generic [ref=e285]: Identification Type
+                    - combobox [ref=e286]:
+                      - option "Select Identification Type" [selected]
+                      - option "Passport"
+                      - option "Tax ID"
+                      - option "Government ID"
+                      - option "Driving License"
+                      - option "National Insurance Number"
+                      - option "Citizenship Card"
+                      - option "Voter ID"
+                      - option "Health Care ID"
+                      - option "Other Nationality/Citizenship ID"
+                      - option "VAT Registration Number"
+                      - option "Tax Identifier"
+                      - option "Armed Forces ID"
+                      - option "Birth Certificate"
+                      - option "Social Security Number"
+                      - option "Other"
+                      - option "Unknown"
+                  - generic [ref=e288]:
+                    - generic [ref=e289]: Registration Number
+                    - textbox "Registration Number" [ref=e291]
+                  - generic [ref=e295]:
+                    - generic [ref=e296]: Street Address*
+                    - textbox "Street Addressrequired" [ref=e298]:
+                      - /placeholder: Type to find address...
+                      - text: Gordon Borrow Street
+                  - generic [ref=e299]:
+                    - generic [ref=e300]: City*
+                    - textbox "Cityrequired" [ref=e302]: Dublin
+                  - generic [ref=e305]:
+                    - generic [ref=e306]: Eircode / Postal Code*
+                    - textbox "Eircode / Postal Coderequired" [ref=e308]:
+                      - /placeholder: e.g. D02 X285
+                      - text: D02 X288
+                  - generic [ref=e309]:
+                    - generic [ref=e310]: Country*
+                    - button "Select..." [ref=e311] [cursor=pointer]
+                    - generic [ref=e343]:
+                      - textbox "Type to search..." [active] [ref=e345]
+                      - list [ref=e346]:
+                        - listitem [ref=e347] [cursor=pointer]: IRELAND
+                        - listitem [ref=e348] [cursor=pointer]: NORWAY
+                  - generic [ref=e313]:
+                    - generic [ref=e314]: Email*
+                    - textbox "Emailrequired" [ref=e316]: test@gmail.com
+                  - generic [ref=e317]:
+                    - generic [ref=e318]: Contact Person*
+                    - textbox "Contact Personrequired" [ref=e320]: TEST QA
+                  - generic [ref=e321]:
+                    - generic [ref=e322]: Contact No*
+                    - generic [ref=e323]:
+                      - combobox "Country code" [disabled] [ref=e324]:
+                        - option "+353" [selected]
+                        - option "+47"
+                        - option "+46"
+                      - textbox "Contact Norequired" [ref=e325]:
+                        - /placeholder: Enter number
+                        - text: "123456789"
+                - generic [ref=e327]:
+                  - generic [ref=e328]:
+                    - generic [ref=e329]: Sanctioned Flag
+                    - paragraph [ref=e331]: Set if the customer is on a sanctions list
+                  - generic [ref=e332]:
+                    - button "No" [disabled] [ref=e333]
+                    - button "Yes" [disabled] [ref=e334]
+                - generic [ref=e335]:
+                  - button "Back" [ref=e336] [cursor=pointer]
+                  - button "Save Customer" [ref=e337] [cursor=pointer]
+          - generic [ref=e252]:
+            - button "Back" [ref=e271] [cursor=pointer]
+            - button "Next Step" [disabled] [ref=e255]
+      - contentinfo [ref=e190]:
+        - paragraph [ref=e191]: "Aviva Insurance Ireland Designated Activity Company, trading as Aviva, is regulated by the Central Bank of Ireland. A private company limited by shares. Registered in Ireland No. 605769. Registered Office: Cherrywood Business Park, Dublin, Ireland, D18 W2P5"
+        - paragraph [ref=e194]: System Operational

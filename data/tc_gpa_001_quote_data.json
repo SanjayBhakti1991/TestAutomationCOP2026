@@ -1,0 +1,27 @@
+{
+  "product": "Group Personal Accident",
+  "company": {
+    "organization_name": "TA2 COP 2026 Ireland Limited",
+    "street_address": "Gordon Borrow Street",
+    "city": "Dublin",
+    "postal_code": "D02 X288",
+    "country": "IRELAND",
+    "email": "test@gmail.com",
+    "contact_person": "TEST QA",
+    "contact_number": "123456789"
+  },
+  "risk": {
+    "activities_description": "Test Activities",
+    "insured_class": "Contractors",
+    "headcount": "10",
+    "operative_time": "Occupational including Commuting",
+    "total_annual_wages": "720000",
+    "average_salary": "60000",
+    "country": "Ireland",
+    "business_type": "Abseiling Contractors",
+    "optional_coverage": "Temporary Total Disablement",
+    "optional_coverage_benefit": "Temporary Total Disablement (TTD) - weekly benefit amount"
+  },
+  "quote_documents": ["QUOTE_SCHEDULE", "IPID", "POLICY_WORDING"],
+  "policy_documents": ["POLICY SCHEDULE", "POLICY WORDING"]
+}

@@ -1,0 +1,52 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]: Loading
+        - progressbar [active] [ref=e8]
+      - main [ref=e83]:
+        - generic [ref=e88]:
+          - heading "Welcome" [level=1] [ref=e89]
+          - link "sanjaytacop2026@gmail.com selected. Switch account" [ref=e91] [cursor=pointer]:
+            - generic [ref=e96]: sanjaytacop2026@gmail.com
+        - generic [ref=e101]:
+          - generic [ref=e25]:
+            - generic [ref=e30]:
+              - generic [ref=e35]:
+                - textbox "Email or phone" [ref=e36]: sanjaytacop2026@gmail.com
+                - generic [aria-hidden]: Email or phone
+              - button "Forgot email?" [ref=e40] [cursor=pointer]
+            - generic [ref=e43]:
+              - text: Not your computer? Use Guest mode to sign in privately.
+              - link "Learn more about using Guest mode (external, opens in a new window)" [ref=e44] [cursor=pointer]:
+                - /url: https://support.google.com/chrome/answer/6130773?hl=en-US
+                - text: Learn more about using Guest mode
+          - generic [ref=e108]:
+            - generic [ref=e116]:
+              - textbox "Enter your password" [ref=e117]
+              - generic [aria-hidden]: Enter your password
+            - generic [ref=e124]:
+              - checkbox "Show password" [ref=e128] [cursor=pointer]
+              - generic [ref=e129]: Show password
+        - generic [ref=e133]:
+          - button "Next" [ref=e137]
+          - button "Forgot password?" [ref=e144]
+    - contentinfo [ref=e66]:
+      - combobox "Change language English (United States)" [ref=e70] [cursor=pointer]:
+        - generic [aria-hidden]:
+          - generic: English (United States)
+      - list [ref=e72]:
+        - listitem [ref=e73]:
+          - link "Open Google Account Help Center (external, opens in a new window)" [ref=e74] [cursor=pointer]:
+            - /url: https://support.google.com/accounts?hl=en-US&p=account_iph
+            - text: Help
+        - listitem [ref=e75]:
+          - link "Privacy Policy (external, opens in a new window)" [ref=e76] [cursor=pointer]:
+            - /url: https://accounts.google.com/TOS?loc=IN&hl=en-US&privacy=true
+            - text: Privacy
+        - listitem [ref=e77]:
+          - link "Google Terms of Service (external, opens in a new window)" [ref=e78] [cursor=pointer]:
+            - /url: https://accounts.google.com/TOS?loc=IN&hl=en-US
+            - text: Terms
+  - iframe [ref=e79]
+  - generic [ref=e150]: Welcome
